@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Calc.sol": "SolidityTest"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Calc.sol": {
+			"keccak256": "0x5d79e841ac131d742958a07e514923274fe8a114bd0ef1284daed0d7e5548e5e",
+			"urls": [
+				"bzz-raw://f6e7a5570c39a5ae18f117b9829621e2d68af9c2edc52f1c79a551dee4526240",
+				"dweb:/ipfs/QmPfnyF82aHdNQuTizofgML7mYQnA1Peuq6qv8Y9mYQ2vq"
+			]
+		}
+	},
+	"version": 1
+}
